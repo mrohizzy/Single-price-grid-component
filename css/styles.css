@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+main{
+    background-color: white;
+    max-width: 620px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 620px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.07), 0 10px 10px rgba(0,0,0,0.07);   
+}
+
+header{
+    padding: 30px;
+}
+
+h1{
+    margin: 0;
+    color: hsl(179, 62%, 43%);
+}
+
+h2{
+    color: hsl(71, 73%, 54%);
+}
+
+header p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+
+div{
+    display: flex;
+}
+
+div > section{
+    flex: 1;
+}
+
+section{  
+    padding: 30px;
+    color: white;   
+}
+
+section.left-content{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.fee{
+    color: hsla(218, 66%, 92%, 0.795);
+    display: flex;
+    align-items: center;
+}
+
+.fee span{
+    font-size: 50px;
+    color: white;   
+    margin-right: 0.5rem;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    text-align: center;
+    margin-top: 1rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.05);
+}
+
+section.right-content{
+    background-color: hsl(179, 66%, 44%); 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.5rem;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 500px){
+    div{
+        flex-direction: column;
+    }
+}
+
